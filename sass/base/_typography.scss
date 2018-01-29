@@ -1,0 +1,26 @@
+.primary-text {
+    color:$color-white;
+    font-family: 'Lato',sans-serif;
+    backface-visibility: hidden;
+    &--main {
+        display:block;
+        font-size:5rem;
+        line-height: 1.7;
+        letter-spacing: 1rem;
+        margin:0 auto;
+        animation-name: fromLeft;
+        animation-duration: 2s;
+        
+
+    }
+    &--sub {
+        display:block;
+        font-size:1.5rem;
+        word-spacing: 2rem;
+        text-align: center;
+        line-height: 1.5;
+        margin-bottom: 3rem;
+        animation-name: fromRight;
+        animation-duration: 1s;
+    }
+}
